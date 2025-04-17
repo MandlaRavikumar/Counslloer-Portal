@@ -1,0 +1,76 @@
+.form-page {
+    background: #f0f4f8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 40px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .enquiry-box {
+    background: white;
+    padding: 30px 35px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 550px;
+  }
+  
+  .form-heading {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .form-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-item label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #555;
+  }
+  
+  .form-item input,
+  .form-item select {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.2s ease;
+  }
+  
+  .form-item input:focus,
+  .form-item select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
