@@ -12,7 +12,6 @@ const DashBoard = () => {
 
   const counsellorName = localStorage.getItem('name'); // Retrieve the name from localStorage
 
-
   useEffect(() => {
     const loadDashboard = async () => {
       const counsellorId = localStorage.getItem('counsellorId');
